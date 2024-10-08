@@ -1,0 +1,69 @@
+/* ExamPage.css */
+
+.container {
+    background-color: #f5f5f5; /* Light background for contrast */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.appBar {
+    background-color: #3f51b5; /* Primary color */
+}
+
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    color: #fff; /* White text for contrast */
+}
+
+.description {
+    background-color: #e8eaf6; /* Light purple background for the description */
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px; /* Spacing below the description */
+}
+
+.tableContainer {
+    margin-bottom: 20px; /* Spacing below the table */
+}
+
+.tableCell {
+    padding: 16px; /* Consistent padding in table cells */
+}
+
+.submitButton {
+    background-color: #4caf50; /* Green for the submit button */
+    color: white;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.submitButton:hover {
+    background-color: #388e3c; /* Darker green on hover */
+}
+
+.snackbar {
+    z-index: 1000; /* Ensure snackbar is above other elements */
+}
+
+.alert {
+    text-align: center; /* Centered text for alerts */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+
+    .description {
+        font-size: 1rem; /* Smaller font for description */
+    }
+
+    .submitButton {
+        width: 100%; /* Full-width button on small screens */
+    }
+}
